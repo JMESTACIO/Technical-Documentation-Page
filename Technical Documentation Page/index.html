@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Programming - Student Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <nav id="navbar">
+      <header>Java Programming</header>
+      <a class="nav-link" href="#Java_Overview">Java Overview</a>
+      <a class="nav-link" href="#JVM_and_JDK">JVM and JDK</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#If_Else_Conditions">If Else Conditions</a>
+      <a class="nav-link" href="#Creating_Classes">Creating Classes</a>
+    </nav>
+
+
+    <main id="main-doc">
+      <section class="main-section" id="Java_Overview">
+        <header>Java Overview</header>
+        <p>Java is an object-oriented programming language developed by Sun Microsystems in 1995.</p>
+        <p>We use Java in OOP class because it enforces strict syntax and strong typing.</p>
+        <code>System.out.println("Hello HAU IT!");</code>
+      </section>
+
+      <section class="main-section" id="JVM_and_JDK">
+        <header>JVM and JDK</header>
+        <p>To write and run Java programs on your machine, you need to understand these tools.</p>
+        <p>Key terms used when setting up your environment:</p>
+        <ul>
+          <li>JDK stands for Java Development Kit.</li>
+          <li>JVM stands for Java Virtual Machine which runs bytecode.</li>
+          <li>Bytecode is stored inside <code>.class</code> files.</li>
+        </ul>
+        <code>javac Main.java</code>
+      </section>
+
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p>Java requires you to declare variable types before using them in code.</p>
+        <p>Primitive data types include int, double, boolean, and char.</p>
+        <code>int studentId = 20241001;</code>
+        <code>double gpa = 1.25;</code>
+      </section>
+
+      <section class="main-section" id="If_Else_Conditions">
+        <header>If Else Conditions</header>
+        <p>Conditional logic helps your program decide which block of code to run.</p>
+        <p>You can test multiple logical conditions using these keywords:</p>
+        <ul>
+          <li>Use <code>if</code> for the main condition.</li>
+          <li>Use <code>else if</code> for secondary checks.</li>
+        </ul>
+        <code>if (grade >= 75) {
+    System.out.println("Passed");
+}</code>
+      </section>
+
+      <section class="main-section" id="Creating_Classes">
+        <header>Creating Classes</header>
+        <p>Everything in Java is wrapped inside a class structure.</p>
+        <p>Your main code must always sit inside a class with a matching file name.</p>
+        <code>public class Main {
+    public static void main(String[] args) {
+        System.out.println("Ready");
+    }
+}</code>
+      </section>
+    </main>
+  </body>
+</html>
